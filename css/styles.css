@@ -556,6 +556,8 @@ padding-right: 15px;
   position: absolute;
   left: 12px;
   top: 50%;
+  fill: currentColor;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-label {
   position: relative;
@@ -566,6 +568,7 @@ padding-right: 15px;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.1px;
+  color: var(--second-text-color);
 }
 .form-input {
   margin-top: 4px;
@@ -573,13 +576,17 @@ padding-right: 15px;
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  outline: 0;
   border-radius: 4px;
+  transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:focus + .modal-icon {
-  fill: #2196F3;
+  color: #2196F3;
 }
 .form-input:focus-visible {
   outline-color: #2196F3;
+  border: 1px solid #2196F3;
 }
 .form-checkbox {
   display: flex;
@@ -600,11 +607,13 @@ padding-right: 15px;
   margin-top: 4px;
   margin-bottom: 20px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  outline: 0;
   border-radius: 4px;
   resize: none;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-textarea:focus-visible {
-  outline-color: #2196F3;
+  border: 1px solid #2196F3;
 }
 .contract {
   margin-left: 3px;
