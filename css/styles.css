@@ -258,8 +258,8 @@ padding-right: 15px;
   background-color: #2196F3;
 }
 .footer-btn svg {
-  fill: currentColor;
   margin-left: 10px;
+  fill: currentColor;
 }
 
 .footer-form label {
