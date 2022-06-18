@@ -232,6 +232,39 @@ padding-right: 15px;
   height: 20px;
   width: 20px;
 }
+.footer-mailing {
+  margin-left: auto;
+}
+.footer-email {
+  width: 358px;
+  padding: 16px 15px;
+  margin-right: 12px;
+  outline: 0;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background: 0;
+}
+.footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #2196F3;
+}
+.footer-btn svg {
+  fill: currentColor;
+  margin-left: 10px;
+}
+
+.footer-form label {
+  display: flex;
+}
 
 
 
