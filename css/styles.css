@@ -261,7 +261,9 @@ padding-right: 15px;
   margin-left: 10px;
   fill: currentColor;
 }
-
+.footer-form {
+  display: flex;
+}
 .footer-form label {
   display: flex;
 }
